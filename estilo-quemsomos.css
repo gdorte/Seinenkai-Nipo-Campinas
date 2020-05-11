@@ -39,6 +39,10 @@ h1{
     margin-left: 20%;
 }
 
+.img{
+    width: 200px;
+}
+
 #paragrafo1, #paragrafo2, #paragrafo3, #div_logos{
     padding: 10px;
     border-radius: 40px;
