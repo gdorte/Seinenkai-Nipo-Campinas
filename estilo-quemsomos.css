@@ -1,0 +1,64 @@
+body{
+    background: #80b0b0;
+}
+
+#menu{
+    float: right;
+}
+
+#conteudo_total{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+a:link, a:visited{
+	color: #FF6600;
+	text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav ul li{
+  	list-style: none;
+  	display: inline-block; /* remove o underline do link */
+	margin-right: 10px; /* coloca espaço entre os links */
+}
+
+h1{
+    margin-left: 350px;
+}
+
+.logos{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#paragrafo1, #paragrafo2, #paragrafo3, #div_logos{
+    padding: 10px;
+    border-radius: 40px;
+}
+
+#paragrafo1{
+    background-color: rgb(145, 241, 229);
+}
+
+#paragrafo2{
+    margin-top: 20px;
+    background-color: rgb(96, 230, 214);
+}
+
+#paragrafo3{
+    margin-top: 20px;
+    background-color: rgb(7, 216, 192);
+}
+
+#div_logos{
+    margin-top: 20px;
+    background-color: rgb(66, 223, 204)
+}
