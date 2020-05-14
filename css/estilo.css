@@ -1,0 +1,200 @@
+body{
+    background: #80b0b0;
+}
+
+#menu{
+    float: right;
+}
+
+#conteudo_total{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1{
+    margin-left: 350px;
+}
+
+nav ul li{
+    display: inline-block; /* coloca na mesma linha */
+    list-style: none; /*Remove o underline*/
+  margin-right: 10px; /* coloca espaço entre os links */
+}
+
+a:link, a:visited{
+    color: #FF6600;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ #destaque_principal{
+   background-color: rgb(145, 241, 229)
+}
+
+#destaque_principal,
+#colecoes1,
+#colecoes2{
+    border-radius: 40px;
+    width: 90%;
+    margin-left: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+#colecoes1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#colecoes1{
+    background: rgb(115, 184, 175);
+}
+
+#colecoes2{
+    background: rgb(97, 138, 139);
+}
+
+#imgdestaque{
+	max-width: 85%;
+	width: auto;
+	height: auto;
+    object-fit: cover;
+}
+
+a.links_albuns{
+	color: #ff009d;
+}
+
+.img, .imgpag{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.miniaturas, .miniatura-centro{
+    display: inline-block;
+    text-align: center;
+}
+
+.miniatura-centro{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#texto_img_principal{
+    text-align: center;
+    font-size: 50px;
+}
+
+.h3-maior{
+    font-size: 15px;
+}
+
+.paragrafo{
+    text-align: justify;
+}
+
+.imgpag{
+    margin-right: 30px;
+}
+
+#outros_albuns{
+    text-align: center;
+}
+
+/*Começo Estilo pagina Quem Somos
+*******************************************************************************
+*/
+.logos{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.img{
+    width: 200px;
+}
+
+#paragrafo1, #paragrafo2, #paragrafo3, #div_logos{
+    padding: 10px;
+    border-radius: 40px;
+}
+
+#paragrafo1{
+    background-color: rgb(145, 241, 229);
+}
+
+#paragrafo2{
+    margin-top: 20px;
+    background-color: rgb(96, 230, 214);
+}
+
+#paragrafo3{
+    margin-top: 20px;
+    background-color: rgb(7, 216, 192);
+}
+
+#div_logos{
+    margin-top: 20px;
+    background-color: rgb(66, 223, 204)
+}
+
+/* Fim Estilo pagina Quem Somos
+*******************************************************************************
+*/
+
+/*Começo Estilo Albuns
+*******************************************************************************
+*/
+.albuns{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#paragrafo_exemplo, #album1, #outros_albuns{
+    padding: 20px;
+    border-radius: 40px;
+    text-align: justify;
+    background-color: rgb(96, 230, 214);
+}
+
+.link_albuns{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+#album1{
+    background-color: rgb(58, 214, 196);
+    margin-bottom: 20px;
+    
+}
+
+#imgdestaque{
+	max-width: 85%;
+	width: auto;
+	height: auto;
+    object-fit: cover;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#texto_img_principal{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#outros_albuns{
+    background-color: rgb(7, 216, 192);
+}
+/* Fim Estilo Albuns
+*******************************************************************************
+*/
